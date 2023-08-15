@@ -3,10 +3,16 @@
     box-sizing: border-box;
     padding: 0;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #container{
     width: 450px;
     border: 2px solid gray;
-    margin: 50px auto;
+    margin-left:50px;
+    margin-top:20px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -44,5 +50,19 @@ button{
 }
 button:hover{
     cursor: pointer;
+}
+ol{
+    width: 800px;
+    font-size: 1.5rem;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 1px gray;
+    margin-right:20px;
+    margin-left: 80px;
+}
+ol h3{
+    text-align: center;
+}
+ol li{
+    margin-left:40px ;
 }
 
