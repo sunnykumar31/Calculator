@@ -131,3 +131,62 @@ ol li{
         margin-left:40px ;
     }
   }
+  @media screen and (min-width: 1000px) and (max-width: 1600px) {
+    #container{
+        width: 400px;
+        border: 2px solid gray;
+        /* margin-left:50px; */
+        margin-top:20px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        text-align: center;
+    }
+    #screen{
+        display: block;
+        margin: 5px auto;
+        font-size: 2rem;
+    
+    }
+    table{
+        margin: 2px auto;
+        border: 6px solid rgb(187, 186, 186);
+    }
+    td{
+        width: 80px;
+        height: 60px;
+        border: 2px solid gray;
+        border-radius: 9px;
+        box-shadow: 1px 1px 2px rgb(104,104,104);
+        transition: 100ms;
+    }
+    td:active{
+        transform: scale(0.85);
+    }
+    button{
+        height: 100%;
+        width: 100%;
+        font-size: 2rem;
+        border: none;
+        border-radius: 8px;
+        font-weight: bolder;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    ol{
+        width: 600px;
+        font-size: 1.5rem;
+        border: 2px solid gray;
+        box-shadow: 2px 2px 1px gray;
+        /* margin-right:20px; */
+        margin-left: 80px;
+    }
+    ol h3{
+        text-align: center;
+    }
+    ol li{
+        margin-left:40px ;
+    }
+  }
